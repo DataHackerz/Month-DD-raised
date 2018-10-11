@@ -1,0 +1,19 @@
+git config --global user.name "--"
+git config --global user.email "--"
+git init
+git status
+git add -A(#all files)
+git status (#Check the files)
+git commit -m "indexing"
+git remote add origin "URL Link"
+git pull origin master
+git push origin master (#--force)
+
+2nd step
+
+git branch branchImages
+git checkout index
+git commit -m "----"
+git checkout master
+git merge branchImages
+git rebase master
